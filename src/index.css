@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  margin: 0;
+}
+h1 {
+  width: 100%;
+  color: green;
+  background-color: rgb(34, 34, 52);
+}
+.input-field {
+  margin-top: 50px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.add-item-button {
+  display: block;
+  width: 250px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.add-item-button:hover {
+  background-color: darkgreen;
+}
